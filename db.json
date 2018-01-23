@@ -1,6 +1,19 @@
-[
-	{
-	},
-	{
-	}
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+	{"prenom":"Farah", "nom":"Mouri", "heure":"12:05","date": "12/01/18","image":"https://dummyimages.com/64/fe4068/fff"},
+	{"prenom":"Tristan", "nom":"Duhesme", "heure":"10:55","date": "11/01/18","image":"https://dummyimages.com/64/032068/fff"},
+	{"prenom":"Remi", "nom":"Peltier", "heure":"17:07","date": "12/01/18","image":"https://dummyimages.com/64/fe4068/fff"}
+  ]
+}
