@@ -7,8 +7,17 @@
     "identity/api/tokens/MTM5MTI1OTg5MDQwMzozNDQyZWMxZmQ5ZDliODUzMGFiMjp0ZW5hbnQ6cWV1c2VybmFtZTpmcml0ekBjb2tlLmNvbTplMDViNGU0NGM2ZWU0MWQ1OWEwMTNmZGExNTQwZjNlNGM3YTBlM2I5MDhlYWZjYjY1ZjhiODI2OTg4ODU3M2UwOTUwOWRkMjlmYWRjNWQ4NjJkOTk1YmE3MTg1MWZhOTc2MjEyYjYxZmU3YTVhZDcwNzM3ZTg3ZDNjNDk2ZDlmNA==": {
 	"validate": true
     },
-    "identity/api/tenants"
-	
+    "identity/api/tenants" : {
+	    {
+		    "@type" : "Tenant",
+		    "id" : "development",
+		    "urlName" : "development",
+		    "name" : "DevelopmentTenant",
+		    "description" : "Tenant for all developers",
+		    "contactEmail" : "admin@mycompany.com",
+		    "defaultTenant" : false
+	    }
+    },
     "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
